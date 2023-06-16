@@ -9,4 +9,7 @@ export default defineConfig({
   outputPath: 'dist/test-live-player',
   routes: [{ path: '/', component: '@/pages/index' }],
   fastRefresh: {},
+  history: {
+    type: 'hash',
+  },
 });
