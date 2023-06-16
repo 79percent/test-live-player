@@ -12,4 +12,11 @@ export default defineConfig({
   history: {
     type: 'hash',
   },
+  // devServer: {
+  //   proxy: {
+  //     '/live': {
+  //       target: 'http://42.192.22.24:8080'
+  //     }
+  //   }
+  // }
 });
