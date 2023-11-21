@@ -24,6 +24,7 @@
     "flv.js": "^1.6.2",
     "react": "17.x",
     "react-dom": "17.x",
+    "tcplayer.js": "^5.0.1",
     "umi": "^3.5.41",
     "vconsole": "^3.15.1"
   },

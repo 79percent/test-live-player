@@ -7,7 +7,11 @@ export default defineConfig({
   hash: true,
   publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
   outputPath: 'dist/test-live-player',
-  routes: [{ path: '/', component: '@/pages/index' }],
+  routes: [
+    // { path: '/', redirect: '/tcPlayer' },
+    { path: '/', component: '@/pages/index' },
+    { path: '/tcPlayer', component: '@/pages/TCPlayer' },
+  ],
   fastRefresh: {},
   history: {
     type: 'hash',
